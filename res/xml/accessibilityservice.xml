@@ -1,0 +1,9 @@
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/app_name"
+    android:accessibilityEventTypes="typeViewScrolled"
+    android:accessibilityFlags="flagDefault"
+    android:accessibilityFeedbackType="feedbackAudible"
+    android:notificationTimeout="100"
+    android:canRetrieveWindowContent="false"
+    android:settingsActivity="net.zhuoweizhang.smoothjazzscrolling.MainActivity"
+/>
