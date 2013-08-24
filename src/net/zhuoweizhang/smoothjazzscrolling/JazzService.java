@@ -41,7 +41,7 @@ public class JazzService extends AccessibilityService {
 
 	@Override
 	public void onAccessibilityEvent(AccessibilityEvent e) {
-		Log.i(TAG, e.toString());
+		//Log.i(TAG, e.toString());
 		int eventType = e.getEventType();
 		if (eventType != AccessibilityEvent.TYPE_VIEW_SCROLLED) return;
 		int newItemCount = e.getItemCount();
